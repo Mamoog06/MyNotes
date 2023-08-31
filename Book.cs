@@ -2,7 +2,7 @@ public class Book
 {
     public string Title;
     public List<Chapter> Chapters;
-    public Book(string title = "Programming notes")
+    public Book(string title)
     {
         Console.BackgroundColor = ConsoleColor.Black;
         Title = title;
