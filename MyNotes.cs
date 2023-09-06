@@ -145,6 +145,61 @@ De forskellige typer af loops i programmering gør generelt det samme - udføre 
 en betingelse, indtil betingelsen ikke længere er opfyldt. Her er en oversigt over nogle af de mest almindelige
 loop-typer og begreber:
 
+'For-loop' bruges til at udføre en række handlinger et bestemt antal gange.
+Typisk bruges sammen med en tæller, der ændres i hver iteration.
+Eksempel:
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine(i);
+}
 
+'foreach-loop' bruges til at iterer over elementer i en samling, som f.eks. et array eller en liste.
+Giver en mere enkel syntaks til at arbejde med samlinger.
+Eksempel:
+int[] numbers = {1, 2, 3, 4, 5};
+foreach (int number in numbers)
+{
+    Console.WriteLine(numbers);
+}
+
+'while-loop' udfører en række handlinger, så længe en betingelse er sand.
+Betingelsen evalueres først, og hvis den er sand, udføres handlingerne.
+Eksempel:
+int count = 0;
+while (count < 5)
+{
+    Console.WriteLine(count);
+    count++;
+}
+
+'do-while-loop' ligner en 'while-loop', men udfører handlingerne mindst en gang, inden betingelsen evalueres.
+Eksempel:
+int x = 5;
+do
+{
+    Console.WriteLine(x);
+    x--;
+} while (x > 0);
 ";
+
+
+
+public static string loopsPageTwo = 
+@"...
+Til at iterere gennem arrays kan du både bruge 'for-loops' og 'foreach-loops' til at iterere gennem arrays.
+
+'break' bruges til at afbryde en loop og forlade den før betingelserne er falsk.
+'continue' bruges til at springe den aktuelle iteration over og gå videre til næste iteration af loopen.
+
+med 'Nested loops' kan du placere en loop i en anden loop for at opnå mere komplekse gentagne handlinger.
+Eksempel:
+for (int i = 0; i < 3; i++)
+{
+    for (int j = 0; j < 3; j++)
+    {
+        Console.WriteLine($'i: {i}, j: {j}');
+    }
+}
+
+Hver type loop har sin egen anvendelse og bruges afhængigt af det specifikke problem, du forsøger at løse i dit program.";
 }

@@ -15,6 +15,7 @@
     }),
     new Chapter("Loops", new List<Page>(){
         new Page(MyNotes.loopsPageOne),
+        new Page(MyNotes.loopsPageTwo),
     }),
 });
 
