@@ -14,7 +14,7 @@ Her er nogle eksempler:
 
     public static string VariablesPageTwo =
 @"...
-De basale datetyper, som du har nævnt (int, float, string, bool), bruges til at repræsentere forskellige typer af data i programmeringssprog.
+De basale datetyper (int, float, string, bool), bruges til at repræsentere forskellige typer af data i programmeringssprog.
 Her er en forklaring på hver disse datatyper.
 'variablen¨ er en navngivet beholder af en værdi, og kan være af forskllige typer.
 Type af variablen bestemme hvilken slags værdi den kan holde, eller hvilke slags operationer kan blive udført.
@@ -39,12 +39,42 @@ Eksempel på en 'string': name = 'Marcus'
 Denne datatype bruges til at repræsentere to mulige værdiger: sandt (True) eller falsk (False).
 Den bruges ofte til at udtrykke betingelser i programmer, hvor noget enten er sandt eller falsk.
 Eksempler på brug: 'True', 'False'
-Eksempel på 'bool': is_sunny = True ";
+Eksempel på 'bool': is_sunny = True";
 
 
 public static string conditionalsPageOne = 
 @"...
-Nar man snakker om konditioner er der tale om at hvis specifikke krav er opfyldt vil bestemte ting ske.
-";
+Når man snakker om konditioner er der tale om at hvis specifikke krav er opfyldt vil bestemte ting ske.
+Udtrykkende (if, else, switch and og or), er alle relateret til betingede udsagn i programmering, men de bruges på forskellige måder og har forskellige formål.
+Her er en kort forklaring af hver:
+
+'else-if' eller 'else' og 'if' bruges til at udføre forskellige handlinger af, om en betingelse er sand eller falsk.
+Eksempel:
+int number = 40;
+if (number > 20)
+{
+    Console.WriteLine('Tallet er over 20');
+}
+else
+{
+    Console.WriteLine('Tallet er 20 eller mindre');
+}
+
+
+'switch' bruges til at håndtere flere mulige tilfælde baseret på værdien af en variabel.
+Eksempel:
+int choice = 2;
+switch (choice)
+{
+    case 1:
+        Console.WriteLine('Valg 1 blev valgt');
+    case 2:
+        Console.WriteLine('Valg 2 blev valgt');
+    default:
+        Console.WriteLine('Ingen gyldigt valg.');
+}
+
+
+'and' (&&) og 'or' (||) ";
 
 }
