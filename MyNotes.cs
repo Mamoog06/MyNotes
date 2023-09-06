@@ -129,7 +129,12 @@ er relaterede til hinanden.";
 
 
 public static string listsPageOne = 
-@"...";
+@"...
+'lists' er en alternativ til arrays der er mere versitale. 
+Opretning:
+Man laver en liste med denne generelle kode:
+List<type> navn = new List<type>();
+";
 
 
 
