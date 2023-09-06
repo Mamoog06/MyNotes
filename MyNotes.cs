@@ -112,12 +112,34 @@ int[] numbers = new int[3];
 Assigning:
 Når arrayet er defineret, kan du tildele værdier til hvert element i arrayet ved at angive indekset for hvert element.
 Arrays strarter i 0.
-numbers[0] = 5
-numbers[1] = 8
-numbers[2] = 365
+numbers[0] = 10;
+numbers[1] = 20;
+numbers[2] = 30;
 
 Modifying:
 Du kan ændre værdierne i et array ved at tildele nyr værdier til de eksisterende indekser.
 Her er et eksempel:
-Number[1] = 25";
+Number[1] = 25
+Nu vil 'numbers'-arrayet indeholde følgende værdier '[10, 25, 30]'
+
+Husk at størrelsen på et array er fast, når det først er defineret, og du kan ikke tilføje eller fjerne elementer uden at oprette
+et nyt array med en anden størrelse. Arrays er meget nyttige til til at gemme og arbejde med en samling af data, hvor elementerne 
+er relaterede til hinanden.";
+
+
+
+public static string listsPageOne = 
+@"...";
+
+
+
+public static string loopsPageOne = 
+@"...
+'loops' er kontrolstrukturer i programmering, der giver dig mulighed for at udføre gentagne handlinger.
+De forskellige typer af loops i programmering gør generelt det samme - udføre gentagne handlinger baseret på
+en betingelse, indtil betingelsen ikke længere er opfyldt. Her er en oversigt over nogle af de mest almindelige
+loop-typer og begreber:
+
+
+";
 }

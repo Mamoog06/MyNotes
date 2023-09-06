@@ -10,6 +10,12 @@
     new Chapter("Arrays", new List<Page>(){
         new Page(MyNotes.arraysPageOne),
     }),
+    new Chapter("Lists", new List<Page>(){
+        new Page(MyNotes.listsPageOne),
+    }),
+    new Chapter("Loops", new List<Page>(){
+        new Page(MyNotes.loopsPageOne),
+    }),
 });
 
 bog.Start();
