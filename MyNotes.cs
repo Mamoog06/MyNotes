@@ -2,17 +2,14 @@ public static class MyNotes
 {
     public static string VariablesPageOne =
 @"...
-In the vast savannah of computer memory, a remarkable phenomenon occurs. 
-Behold, the magnificent 'variables' – they are the vessels of information, the heart of computation. 
-They bear names, bestowed upon them with care, starting only with letters or the humble underscore. 
-But tread with caution, for certain names are forbidden, like 'int', 'string', and 'bool'. 
-With the gentle touch of the '=' operator, values are imbued unto these variables. 
-And lo, their types can be declared, like incantations, as in 'type variableName = value;'. 
-Observe: 
- int age = 32;
- string name = ""Jesper"";
- float awesomeLevel = 99.9f;
- bool TooCoolForSchool = false;
+Variabler indeholder forskelligt information der kan ændres igennem koden.
+Der findes 4 forskellige typer variabler. 'int', 'float', 'string' og 'bool'.
+Variabler skal defineres sådan her 'type variabelNavn = værdi'
+Her er nogle eksempler:
+ int peopleIveKilled = 116;
+ string name = ""Benny Bunsenbrænder"";
+ float howOldAmI = 5.4f;
+ bool doIRegretIt = false;
 ";
 
     public static string VariablesPageTwo =
