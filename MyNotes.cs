@@ -72,9 +72,38 @@ switch (choice)
         Console.WriteLine('Valg 2 blev valgt');
     default:
         Console.WriteLine('Ingen gyldigt valg.');
+} ";
+
+
+public static string conditionalsPageTwo = 
+@"...
+'and' (&&) og 'or' (||) er logiske operatorer, der bruges til at kombinere betingelser.
+'and' ('&&') kræver, at begge betingelser er sande for at give en sand værdi.
+'or' ('||') kræver, at mindst en af betingelserne er sand for at give en sand værdi.
+Eksempel:
+int age = 25;
+bool isStudent = true;
+
+if (age > 18 && isStudent)
+{
+    Console.WriteLine('Du er en studerende over 18 år.');
 }
 
+if (age < 12 || age > 65)
+{
+    Console.WriteLine('Du er enten under 12 år eller over 65 år.');
+}
 
-'and' (&&) og 'or' (||) ";
+Bemærk, at selvom 'if' og 'else' samt 'switch' har til formål at håndtere betingede situationer, er de forskellige i deres anvendelse og kompleksitet.
+'And' og 'or' er logiske operatorer, der bruges til at opbygge mere komplekse betingelser ved at kombinere en eller flere betingelser.";
 
+
+
+public static string ArraysPageOne = 
+@"...
+I programmering bruges arrays til at gemme en samling af elementer af samme datatyper.
+Du kan definere, tildele og ændre elementer i et array.
+
+Defining
+";
 }
