@@ -5,6 +5,10 @@
     }),
     new Chapter("Conditioner", new List<Page>(){
         new Page(MyNotes.conditionalsPageOne),
+        new Page(MyNotes.conditionalsPageTwo),
+    }),
+    new Chapter("Arrays", new List<Page>(){
+        new Page(MyNotes.arraysPageOne),
     }),
 });
 

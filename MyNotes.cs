@@ -99,11 +99,25 @@ Bemærk, at selvom 'if' og 'else' samt 'switch' har til formål at håndtere bet
 
 
 
-public static string ArraysPageOne = 
+public static string arraysPageOne = 
 @"...
 I programmering bruges arrays til at gemme en samling af elementer af samme datatyper.
 Du kan definere, tildele og ændre elementer i et array.
 
-Defining
-";
+Defining:
+Når du definerer et array, angiver du datatypen for elementerne, arrayets navn og størrelsen på arrayet.
+Her er et eksempel:
+int[] numbers = new int[3];
+
+Assigning:
+Når arrayet er defineret, kan du tildele værdier til hvert element i arrayet ved at angive indekset for hvert element.
+Arrays strarter i 0.
+numbers[0] = 5
+numbers[1] = 8
+numbers[2] = 365
+
+Modifying:
+Du kan ændre værdierne i et array ved at tildele nyr værdier til de eksisterende indekser.
+Her er et eksempel:
+Number[1] = 25";
 }
