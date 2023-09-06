@@ -41,4 +41,10 @@ Den bruges ofte til at udtrykke betingelser i programmer, hvor noget enten er sa
 Eksempler på brug: 'True', 'False'
 Eksempel på 'bool': is_sunny = True ";
 
+
+public static string conditionalsPageOne = 
+@"...
+Nar man snakker om konditioner er der tale om at hvis specifikke krav er opfyldt vil bestemte ting ske.
+";
+
 }
